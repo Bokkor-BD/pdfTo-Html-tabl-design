@@ -1,0 +1,283 @@
+table{
+    font-size: 30px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+
+.header{
+    background: #61CEF9;
+    height: 60px;
+}
+.header h1{
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.header td{
+    border: 2px solid #000;
+}
+
+
+.path {
+    background: #FDCDFD;
+    height: 70px
+}
+.path ul{
+    margin: 0;
+    padding: 0;
+}
+.path ul li{
+    list-style: none;
+    display: inline-block
+}
+.path ul li a{
+    text-decoration: none;
+    padding: 5px 40px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    font-size: 20px;
+    font-weight: 600;
+}
+.path ul li a:hover{
+    color: orangered;
+    border: 1px solid red;
+    transition: .3s;
+}
+.docktop{
+    background: yellow;
+    height: 30px;    
+}
+
+.dockleft{
+    background: #FCCCCC;
+    height: 200px;
+}
+.dockleft img{
+    width: 250px;
+}
+.dockleft h2{
+    text-transform: uppercase;
+    color: mediumvioletred;
+}
+
+.dockleft p{
+    color: blue;
+    font-size: 20px;
+    text-align: justify;
+    font-style: italic;
+    padding: 0 20px;
+}
+
+.error{
+    background: #CACDF8;
+    height: 30px;
+}
+.error h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    color: brown;
+    margin: 0;
+    margin-top: 10px;
+}
+.error li{
+    text-align: left;
+    color: orangered;
+    padding: 5px;
+    font-size: 16px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.content{
+    background: #B4B4B4;
+}
+.content h2{
+    text-transform: uppercase;
+    color: brown;
+    font-size: 36px;
+    margin: 0;
+    margin-top: 10px;
+}
+.content p{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: left;
+    padding: 5px 10px;
+    margin-top: 0;
+}
+
+.dockbottom{
+    background: #CCFCFF;
+}
+.dockbottom h2{
+    text-transform: uppercase;
+    color: brown;
+    font-size: 36px;
+}
+.dockbottom img{
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.dockright{
+    background: #CDFC9C;
+    height: 200px;
+}
+.dockright img{
+    width: 250px;
+}
+.dockright h2{
+    text-transform: uppercase;
+    color: mediumvioletred;
+}
+
+.dockright p{
+    color: blue;
+    font-size: 20px;
+    text-align: justify;
+    font-style: italic;
+    padding: 0 20px;
+}
+
+
+.footer{
+    background: #FACA9C;
+    height: 60px;
+}
+.footer iframe{
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.footer address{
+    text-align: left;
+    margin-left: 30px;
+    list-style: none;
+}
+.footer address h3{
+    color: red;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 30px;
+}
+.footer address li{
+    font-size: 20px;
+}
+
+.footer .quicklinks h3{
+    text-transform: uppercase;
+    color: tomato;
+    font-size: 22px;
+    margin-top: 0px;
+}
+.footer .quicklinks h4{
+    text-transform: uppercase;
+    color: tomato;
+    font-size: 20px;
+    margin: 20px;
+}
+.footer .quicklinks p{
+    color: tomato;
+    font-size: 16px;
+    text-align: justify;
+    padding: 5px 20px;
+}
+.footer .quicklinks q{
+    color: green;
+    font-size: 20px;
+    text-align: justify;
+    padding: 5px 20px;
+}
+.footer .quicklinks span{
+    color: red;
+    font-size: 30px;
+}
+.footer .quicklinks a{
+     text-decoration: none;
+}
+.footer .quicklinks li{
+    list-style: none;  
+    color: darkblue;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5px 0;
+}
+.footer .form{
+    width: 30%;
+    padding: 10px 5px;
+}
+.footer .form h2{
+    width: 100%;
+    background: red;
+    padding: 5px 0;
+    color: aliceblue;
+    margin: 0px;
+    border-radius: 10px;
+}
+.footer .follow{
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.footer i{
+    color: green;
+    font-size: 26px;
+    padding: 3px 10px;
+    border: 1px solid transparent;
+    margin-bottom: 30px;
+}
+.footer i:hover{
+    color: red;
+    border: 1px solid red;
+}
+.footer .form input{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.footer .form textarea{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.footer .form button{
+    width: 107%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background: green;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: greenyellow;
+}
+
+.footer .form li{    
+    text-align: center;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.copyright{
+    background: #000;
+    color: aliceblue;
+}
+
+.copyright p{
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+}
